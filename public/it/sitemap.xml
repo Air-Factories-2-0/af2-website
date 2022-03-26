@@ -10,6 +10,16 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="gallery"
+                href="https://air-factories-2-0.github.io/af2-website/public/gallery/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="galleria"
+                href="https://air-factories-2-0.github.io/af2-website/public/galleria/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="it"
                 href="https://air-factories-2-0.github.io/af2-website/public/"
                 />

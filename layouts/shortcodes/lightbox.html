@@ -1,0 +1,48 @@
+<!-- Images used to open the lightbox -->
+<div class="row">
+    {{ $baseurl:= .Site.BaseURL | absURL}}
+
+    {{- range (seq 3 (sub (len .Params) 1) ) }}
+        {{- $img := split ($.Get .) "|" }}
+        {{- $path := index $img 0}}
+        {{- $index := .}}
+        <div class="column">
+            <img src="{{$baseurl}}images/galleria/{{$path}}" onclick="openModal({{$.Get 0}}, {{$.Get 1}}, {{$.Get 2}},{{(sub $index 2)}} );currentSlide({{$.Get 1}}, {{$.Get 2}},{{(sub $index 2)}})" class="hover-shadow">
+        </div>
+    {{- end }}
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="{{$.Get 0}}" class="modal">
+    <span class="close cursor" onclick="closeModal({{$.Get 0}})">&times;</span>
+    <div class="modal-content">
+    
+        {{- range (seq 3 (sub (len .Params) 1) ) }}
+            {{- $img := split ($.Get .) "|" }}
+            {{- $path := index $img 0}}
+            {{- $index := .}}
+            <div class="mySlides {{$.Get 1}}">
+                <img src="{{$baseurl}}images/galleria/{{$path}}" style="width:60%; height: 10%;">
+            </div>
+        {{- end }}
+        
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides({{$.Get 1}}, {{$.Get 2}}, -1)">&#10094;</a>
+    <a class="next" onclick="plusSlides({{$.Get 1}}, {{$.Get 2}}, 1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+        <p id="caption{{$.Get 1}}"></p>
+    </div>
+            {{- range (seq 3 (sub (len .Params) 1) ) }}
+                {{- $img := split ($.Get .) "|" }}
+                {{- $path := index $img 0}}
+                {{- $name := index $img 1}}
+                {{- $index := .}}
+                <div class="column">
+                    <img style="height:20%" class="demo {{$.Get 2}}" src="{{$baseurl}}images/galleria/{{$path}}" onclick="currentSlide({{$.Get 1}}, {{$.Get 2}},{{(sub $index 2)}})" alt="{{$name}}">
+                </div>
+            {{- end }}
+        <!-- Thumbnail image controls -->
+        </div>
+</div>

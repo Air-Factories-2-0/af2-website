@@ -3,6 +3,7 @@
 
 <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 
+
 {{ with .Site.Params.favicon }}
   <link rel="shortcut icon" href="{{ . | absLangURL }}" type="image/png"
 />{{ end }}
@@ -21,6 +22,7 @@
 
 <link rel="stylesheet" href="{{ "css/screen.css" | absURL }}" />
 <link rel="stylesheet" href="{{ "css/custom.css" | absURL }}" />
+
 
 <link
   href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700"
