@@ -36,3 +36,17 @@ Assemblaggio completo della struttura
 Prova di stampa asse z infinito con rulli di supporto
 
 {{< video vidName="supporticr30" vidExt="mp4">}}
+
+---
+Assemblaggio Air Kit su CR-30
+---
+
+
+<br>
+<br>
+
+{{< video vidName="AirKit" vidExt="mp4">}}
+
+Timelapse di stampa tramite Air Kit
+
+{{< video vidName="testPrint" vidExt="mp4">}}
