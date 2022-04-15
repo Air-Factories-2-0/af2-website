@@ -1,12 +1,10 @@
 ---
-title: "Air Factories 2.0"
+title: "La piattaforma software"
 weight: 4
 header_menu: true
 ---
 
-Il sito è disponibile al seguente link [Air Factories 2.0](http://212.189.207.32:1234/). 
+La Piattaforma Air Factories 2.0 è raggiungibile [qui](http://212.189.207.32:1234/).
 
-E' necessario scaricare l'estensione Metamask e connettersi alla rete di test chiamata Rinkeby.
-Per poter effettuare l'operazione di Singup e quindi registrarsi al sito e interagire è necessario avere a disposizioni degli Ether sulla suddetta rete di test, questi possono essere recuperati tramite i faucet presenti online.
-
-Al seguente [link](https://docs.google.com/document/d/1UOUjMGVb0FKS8KLCcYms2xwy3dedhb2Br8woISlWzig/edit?usp=sharing) è possibile trovare la documentazione tecnica riguardante la creazione della piattaforma.s
+Per l'utilizzo è necessario installare il tool [Metamask](https://metamask.io/) e connettersi alla rete di test [Rinkeby](https://www.rinkeby.io/#stats).
+Per poter registrarsi e interagire con la piattaforma è necessario possedere degli ETH sulla suddetta rete. Questi possono essere ottenuti tramite i vari faucet presenti online (ad esempio [qui](https://faucet.rinkeby.io/)).

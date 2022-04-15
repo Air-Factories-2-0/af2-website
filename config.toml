@@ -6,31 +6,31 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 defaultContentLanguage = "it"
 [languages]
 
-  [languages.en]
-    title = "Air Factories 2.0"
-    contentDir = 'content/en'
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        name = 'Italian'
-        url = ''
-        pre = "btn site-menu-lang"
+#  [languages.en]
+#    title = "Air Factories 2.0"
+#    contentDir = 'content/en'
+#    [languages.en.menu]
+#      [[languages.en.menu.main]]
+#        name = 'Italian'
+#        url = ''
+#        pre = "btn site-menu-lang"
 
-      [[languages.en.menu.main]]
-        name = 'Gallery'
-        url = 'gallery'
-        weight = -110
-        pre = "btn site-menu-gallery"
+#      [[languages.en.menu.main]]
+#        name = 'Gallery'
+#        url = 'gallery'
+#        weight = -110
+#        pre = "btn site-menu-gallery"
 
 
   [languages.it]
     title = "Air Factories 2.0"
     contentDir = 'content/it'
 
-       [languages.it.menu]
-        [[languages.it.menu.main]]
-          name = 'English'
-          url = 'en'
-          pre = "btn site-menu-lang"
+#       [languages.it.menu]
+#        [[languages.it.menu.main]]
+#          name = 'English'
+#          url = 'en'
+#          pre = "btn site-menu-lang"
 
 
         [[languages.it.menu.main]]
@@ -41,14 +41,14 @@ defaultContentLanguage = "it"
 
 
   #Modo semplice per mantere lo stesso tema su più pagine è fare finta che sia una lingua
-  [languages.gallery]
-    title = "Air Factories 2.0 Gallery "
-    contentDir = 'content/en/gallery'
-      [languages.gallery.menu]
-      [[languages.gallery.menu.main]]
-        name = 'Home'
-        url = 'en'
-        pre = "btn site-menu-lang"
+ # [languages.gallery]
+ #   title = "Air Factories 2.0 Gallery "
+ #   contentDir = 'content/en/gallery'
+ #     [languages.gallery.menu]
+ #     [[languages.gallery.menu.main]]
+ #       name = 'Home'
+ #       url = 'en'
+ #       pre = "btn site-menu-lang"
 
   [languages.galleria]
     title = "Galleria Air Factories 2.0"
