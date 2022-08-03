@@ -10,3 +10,9 @@ Nei seguenti video, le presentazioni di alcune tesi di laurea svolte nell'ambito
 
 {{< youtube iP3Pm6aiCQU>}}
 Il Dr. Antonio Martone espone le fasi dell'implementazione del token AF2 utilizzato nella piattaforma.
+
+{{< youtube eMqOQm63in8>}}
+Il Dr. Giovanni Arlotta espone le fasi dell'implementazione del fronted Web3 della piattaforma.
+
+{{< youtube jakIFtJdxH4>}}
+Il Dr. Valerio Piccione espone le fasi dell'implementazione dello storage per i file STL utilizzato nella piattaforma.
