@@ -16,3 +16,7 @@ Il Dr. Giovanni Arlotta espone le fasi dell'implementazione del fronted Web3 del
 
 {{< youtube jakIFtJdxH4>}}
 Il Dr. Valerio Piccione espone le fasi dell'implementazione dello storage per i file STL utilizzato nella piattaforma.
+
+{{< youtube 1ZTYsRESw_M>}}
+Il Dr. Roberto Marzullo espone le fasi dell'implementazione dell'oracolo per la comunicazione tra la blockchain Ethereum e la blockchain Hyperledger Fabric.
+
